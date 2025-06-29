@@ -393,10 +393,10 @@ margin-bottom: 8px;
     background-color: #4D5AE5;
     align-items: center;
     justify-content: center;
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link-first{
+/*.social-link-first{
     width: 40px;
     height:40px;
     display: flex;
@@ -404,8 +404,8 @@ margin-bottom: 8px;
     background-color: #4D5AE5;
     align-items: center;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    
+}*/
 
 
 .social-link:hover,
