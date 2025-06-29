@@ -112,6 +112,7 @@ margin: 0 auto;
     bottom: -1px;
     background: #404BBF;
 }
+
 /*Контакты*/
 
 .address{
@@ -416,6 +417,49 @@ margin-bottom: 8px;
 .social-item{
 
 }
+
+
+.social-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-social-list {
+    display: flex;
+    gap:16px;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer-social-link {
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover{
+    background-color: #31D0AA;
+}
+
+.footer-social {
+    width: calc((100% - 48px) / 4);
+}
+
+.footer-social-icon,
 .social-icon {
     fill: #f4f4fd;
+}
+
+.footer-box{
+    display: flex;
+    gap: 120px;
 }
