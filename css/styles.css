@@ -433,6 +433,7 @@ margin-bottom: 8px;
     gap:16px;
     justify-items: center;
     align-items: center;
+
 }
 
 .footer-social-link {
@@ -462,4 +463,5 @@ margin-bottom: 8px;
 .footer-box{
     display: flex;
     gap: 120px;
+    align-items: baseline;
 }
