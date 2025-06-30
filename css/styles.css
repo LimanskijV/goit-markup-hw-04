@@ -486,7 +486,6 @@ margin-bottom: 8px;
 
 .footer-box{
     display: flex;
-    gap: 120px;
     align-items: baseline;
 }
 
@@ -496,4 +495,9 @@ margin-bottom: 8px;
 
 .footer-social-list-item {
 
+}
+
+.footer-social-icon {
+    width: 40px;
+    height: 40px;
 }
